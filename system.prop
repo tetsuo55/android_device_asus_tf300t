@@ -1,8 +1,9 @@
 #
 # system.prop for tf300
 #
-ro.carrier=wifi-only
-ro.sf.lcd_density=160
+ro.carrier=wifi-onlyou
+#configure the physical pixels density
+ro.sf.lcd_density=150
 
 ro.ethernet.interface=eth0
 ro.ethernet.autoEnable=yes
