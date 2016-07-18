@@ -46,7 +46,7 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := cortex-a9
-#ARCH_LIBPNG_NO_NEON := true
+
 
 # Boot/Recovery image settings  
 BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
