@@ -1,4 +1,5 @@
-# Copyright (C) 2011 The Android Open Source Project
+#
+# Copyright (C) 2011-2016 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,20 +14,10 @@
 # limitations under the License.
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, device/asus/tf300t/device_tf300t.mk)
+$(call inherit-product, device/asus/tf300t/device.mk)
 # This is where we'd set a backup provider if we had one
 #$(call inherit-product, device/sample/products/backup_overlay.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
-
-# Set the physical display size with PRODUCT_AAPT_CONFIG
-# Options are small(~2"-3"), normal(~3"-4"), large(~4"-7"), xlarge(~7" and larger)
-PRODUCT_AAPT_CONFIG := xlarge
-# Set the preferred asset density with PRODUCT_AAPT_PREF_CONFIG
-# See android CCD for valid options
-PRODUCT_AAPT_PREF_CONFIG := mdpi
-# A list of dpis to select prebuilt apk, in precedence order.
-# See android CCD for valid options
-PRODUCT_AAPT_PREBUILT_DPI := mdpi ldpi tvdpi hdpi xhdpi
 
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := full_tf300t
