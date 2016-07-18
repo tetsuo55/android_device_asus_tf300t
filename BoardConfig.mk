@@ -111,7 +111,6 @@ BOARD_HARDWARE_CLASS := device/asus/tf300t/cmhw/
 
 # Recovery Options
 #BOARD_CUSTOM_BOOTIMG_MK := device/asus/tf300t/recovery/recovery.mk
-BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_SDCARD_INTERNAL := true
 TARGET_RECOVERY_FSTAB := device/asus/tf300t/ramdisk/fstab.cardhu
