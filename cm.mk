@@ -9,7 +9,7 @@ TARGET_SCREEN_WIDTH := 800
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/asus/tf300t/full_tf300t.mk)
+$(call inherit-product, device/asus/tf300t/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tf300t
