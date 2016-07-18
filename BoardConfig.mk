@@ -13,6 +13,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+
+# Board device path
+DEVICE_PATH := device/asus/tf300t
+
 EXTENDED_FONT_FOOTPRINT := true
 
 BOARD_USES_GENERIC_AUDIO := false
