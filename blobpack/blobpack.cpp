@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "blob.h"
+#include <blobpack/blob.h>
 typedef struct
 {
   char *part_name;
