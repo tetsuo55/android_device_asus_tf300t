@@ -57,9 +57,6 @@ PRODUCT_COPY_FILES += \
 # Build characteristics setting 
 PRODUCT_CHARACTERISTICS := tablet
 
-# This device have enough room for precise davick
-PRODUCT_TAGS += dalvik.gc.type-precise
-
 # Extra packages to build for this device
 PRODUCT_PACKAGES += \
     librs_jni \
