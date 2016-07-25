@@ -18,7 +18,7 @@
 DEVICE_PATH := device/asus/tf300t
 
 # Board device headers
-TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
+TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 
 # Board device elements
 include $(DEVICE_PATH)/PlatformConfig.mk
@@ -90,7 +90,7 @@ BOARD_KERNEL_CMDLINE := # Ignored, see cmdline.txt
 # Kernel properties
 TARGET_KERNEL_SOURCE := kernel/asus/tf300t
 TARGET_KERNEL_CONFIG := katkernel_defconfig
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
+#TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 
 # Custom boot #TOCHECK do we need this
 #BOARD_CUSTOM_BOOTIMG := true

@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo katkiss_tf300t-userdebug
+add_lunch_combo katkiss_tf300t-eng
