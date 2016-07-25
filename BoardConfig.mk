@@ -89,7 +89,7 @@ BOARD_KERNEL_CMDLINE := # Ignored, see cmdline.txt
 
 # Kernel properties
 TARGET_KERNEL_SOURCE := kernel/asus/tf300t
-TARGET_KERNEL_CONFIG := tf300t_cm11_defconfig
+TARGET_KERNEL_CONFIG := katkernel_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 
 # Custom boot #TOCHECK do we need this
